@@ -37,7 +37,8 @@ python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 
-Then download the dialogue model here: 1, for low-end computers: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_S.gguf?download=true
+Then download the dialogue model here: 1, for low-end computers: 
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_S.gguf?download=true
 Double-click the API.bat file to see if it works.
 
 PUI:
@@ -73,4 +74,4 @@ Conclusion
 
 I hope no one sees this repository, but this Readme.md seems like an introduction to others… Let’s use it as an introduction for my future self.
 
-Find the integration package here: 1
+Find the integration package here: https://huggingface.co/RaidenSilver/desktop-pet-AI
