@@ -77,3 +77,12 @@ Conclusion
 I hope no one sees this repository, but this Readme.md seems like an introduction to others… Let’s use it as an introduction for my future self.
 
 Find the integration package here: https://huggingface.co/RaidenSilver/desktop-pet-AI
+
+IMPORTANT:
+In the LLM folder of the integrated package, the API.bat file needs to be modified as follows:
+
+.\venv\Scripts\python server.py --model-dir "models" --model llama-2-7b-chat.Q4_K_S.gguf --listen --listen-port 7860 --character Copilot --gradio-auth Raiden:13252123393Wf --api
+pause
+
+󠁪Otherwise, an error will occur.
+
