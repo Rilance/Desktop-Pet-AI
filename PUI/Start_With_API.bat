@@ -1,2 +1,2 @@
-venv\Scripts\python.exe API_V2.py
+venv\Scripts\python.exe API_V7.py
 pause
