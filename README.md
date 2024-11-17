@@ -46,7 +46,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-This completes the three parts (May be?).
+This completes the three parts (Maybe?).
 
 Finally, confirm if all models are in place…
 
