@@ -26,7 +26,7 @@ class ApiCallThread(QThread):
 
 # Define API call function
 def call_api(input_text, retries=3, timeout=30):
-    XAI_API_KEY = "xai-Zj8oBgRh6FMFI59dRTtwt0IlJftmzO7OEe7UidvKemVteLmvzegOCHI0BWRRbzNuBTS0m0pay7EuJeAf"  # Replace this with your API key
+    XAI_API_KEY = ""  # Replace this with your API key
     client = openai.OpenAI(
         api_key=XAI_API_KEY,
         base_url="https://api.x.ai/v1",
