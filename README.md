@@ -33,6 +33,21 @@ Otherwise, you need to modify the batch file.
 TTS is using the V2 Models.
 You can download the model here: [huggingface](https://huggingface.co/RaidenSilver/TTS/tree/main)
 
+If TTS reports an error, please try the following command:
+
+```sh
+.\venv\Scripts\activate
+python
+```
+
+```python
+import nltk
+nltk.set_proxy('http://127.0.0.1:10809') #Replace it with your proxy port
+nltk.download('cmudict')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
+```
+
 ### LLM:
 Unzip LLM.zip to LLM (similarly, do not place the folder, but the files, about 48 items)
 
