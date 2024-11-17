@@ -29,7 +29,8 @@ pip install -r requirements.txt
 ```
 
 Otherwise, you need to modify the batch file.
-TTS uses the V1 model… because I only trained the V1 model…
+~~TTS uses the V1 model… because I only trained the V1 model…~~
+TTS is using the V2 Models.
 You can download the model here: [huggingface](https://huggingface.co/RaidenSilver/TTS/tree/main)
 
 ### LLM:
