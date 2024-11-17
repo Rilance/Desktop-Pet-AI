@@ -21,9 +21,11 @@ Building from Source:
 ## TTS:
 Unzip TTS.zip to TTS (root directory, do not place the entire folder into TTS, about 23 items), then deploy according to the official version. I used Python’s venv virtual environment, not Conda:
 
+```sh
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 Otherwise, you need to modify the batch file.
 TTS is using the V2 Models.
@@ -38,9 +40,11 @@ Fill in the Grok API key yourself, on line 29 of the .\PUI\Grok-Beta.py file.
 ## PUI:
 Unzip PUI.zip to PUI (similarly, do not place the folder, but the files, about 13 items)
 
+```sh
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 This completes the three parts (May be?).
 
