@@ -31,17 +31,8 @@ TTS uses the V1 model… because I only trained the V1 model…
 You can download the model here: https://huggingface.co/RaidenSilver/TTS/tree/main
 
 LLM:
-Unzip LLM.zip to LLM (similarly, do not place the folder, but the files, about 48 items)
-
-python -m venv venv
-.\venv\Scripts\activate
-pip install -r requirements.txt
-
-Then download the dialogue model here: 1, for low-end computers: 
-https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_S.gguf?download=true
-Double-click the API.bat file to see if it works.
-
-Please note: The LLM module needs to use my updated server.py file, otherwise errors may occur and it may be unstable.
+I will use Grok's API to obtain LLM support.
+Fill in the Grok API key yourself.
 
 PUI:
 Unzip PUI.zip to PUI (similarly, do not place the folder, but the files, about 13 items)
