@@ -58,7 +58,7 @@ pip install -r requirements.txt
 ```
 
 Then download the dialogue model here: 1, for low-end computers: 
-https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_S.gguf?download=true
+[Llama-2-7B-Chat](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_S.gguf?download=true)
 Double-click the API.bat file to see if it works.
 
 Please note: The LLM module needs to use my updated server.py file, otherwise errors may occur and it may be unstable.
