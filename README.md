@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 Otherwise, you need to modify the batch file.
 TTS is using the V2 Models.
-###You can download the model here: [Huggingface](https://huggingface.co/RaidenSilver/TTS/tree/main)
+You can download the model here: [Huggingface](https://huggingface.co/RaidenSilver/TTS/tree/main)
 
 If TTS reports an error, please try the following command:
 
