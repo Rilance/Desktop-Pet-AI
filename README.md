@@ -50,7 +50,7 @@ nltk.download('averaged_perceptron_tagger_eng')
 I will use Grok's API to obtain LLM support.
 You can register and obtain your Grok API at [X](https://x.ai/).
 ### IMPORTANT:
-Fill in the Grok API key yourself, on line 29 of the .\PUI\Grok-Beta.py file.
+Fill in the Grok API key yourself, on line 2 of the .\PUI\config.py file.
 
 ## PUI:
 Unzip PUI.zip to PUI (similarly, do not place the folder, but the files, about 13 items)
@@ -66,6 +66,9 @@ This completes the three parts (Maybe?).
 Finally, confirm if all models are in place…
 
 Then double-click API.bat in the LLM folder and API.bat in the TTS folder. After both are loaded, open Start_With_API.bat in the PUI folder. Then you can enjoy it.
+
+##STT
+I don't want to say much about this module. You can directly download the integrated package.
 
 ## About Errors
 
