@@ -67,7 +67,7 @@ Finally, confirm if all models are in place…
 
 Then double-click API.bat in the LLM folder and API.bat in the TTS folder. After both are loaded, open Start_With_API.bat in the PUI folder. Then you can enjoy it.
 
-##STT
+## STT
 This is a local update for converting speech to text. The installation method is as follows:
 ```sh
 python -m venv venv
