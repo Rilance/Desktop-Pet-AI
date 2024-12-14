@@ -1,6 +1,6 @@
 # Preface
 
-The reason for creating this project is my curiosity and some unknown psychological activities. There are many details that haven’t been perfected yet… Anyway, this is my first work…
+The reason for creating this project is my curiosity and some unknown psychological activities. There are many details that haven’t been perfected yet… 
 
 ## Acknowledgements:
 
