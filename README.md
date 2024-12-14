@@ -92,8 +92,6 @@ I’m not familiar with various open-source licenses, just don’t use it for il
 
 ## Conclusion
 
-I hope no one sees this repository, but this Readme.md seems like an introduction to others… Let’s use it as an introduction for my future self.
-
 Find the integration package here: [Huggingface](https://huggingface.co/RaidenSilver/desktop-pet-AI)
 
 ## IMPORTANT:
