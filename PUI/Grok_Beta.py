@@ -25,7 +25,7 @@ import noisereduce as nr
 temp_dir = os.path.join(os.getcwd(), "temp")
 os.makedirs(temp_dir, exist_ok=True)
 
-config_path = r"E:\\AI\\PUI\\config.py"
+config_path = r".\config.py"
 spec = importlib.util.spec_from_file_location("config", config_path)
 config = importlib.util.module_from_spec(spec)
 sys.modules["config"] = config
@@ -114,7 +114,6 @@ class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
         self.is_listening = False
-        self.stt_model = WhisperModel("./faster-whisper-large-v3")
         self.initUI()
 
     def initUI(self):
