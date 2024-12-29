@@ -1,6 +1,6 @@
 # Preface
 
-The reason for creating this project is my curiosity and some unknown psychological activities. There are many details that haven’t been perfected yet… 
+Do you want an AI that is always by your side, ready to answer your questions? This project is a simple implementation.
 
 ## Acknowledgements:
 
